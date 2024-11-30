@@ -1,0 +1,100 @@
+body{
+    background: #8bc7dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #80eace;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.circle {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #000;
+}
+
+nav ul {
+    list-style: none;
+    background: #80eace;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form select, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .contact .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .contact .icon {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  .contact .icon:hover {
+    background: white;
+    color: #007BFF;
+  }
+
+footer {
+    background: #80eace;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
